@@ -1,0 +1,43 @@
+.footer {
+  position: absolute;
+  transform: rotate(270deg);
+  right: 2%;
+  bottom: 7%;
+  font-size: 13px;
+  color: #ece7e1;
+  letter-spacing: 3px;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.light-background {
+  .footer {
+    bottom: 2%;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .footer {
+    font-size: 10px;
+  }
+
+  .light-background {
+    .footer {
+      position: absolute;
+      bottom: 3%;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 768px) and (orientation : landscape) {
+  .footer {
+    font-size: 10px;
+  }
+
+  .light-background {
+    .footer {
+      position: absolute;
+      bottom: -196%;
+    }
+  }
+}

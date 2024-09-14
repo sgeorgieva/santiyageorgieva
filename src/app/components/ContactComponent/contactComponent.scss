@@ -1,0 +1,46 @@
+.contact-wrapper {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12%;
+  z-index: -1;
+
+  .title-contact {
+    h1 {
+      font-size: 14vw;
+      color: #ece7e1;
+      letter-spacing: 3px;
+    }
+  }
+  
+  .description-contact {
+    margin-left: 15px;
+
+    p {
+      color: #ece7e1;
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-family: var(--font-raleway);
+      margin-bottom: 1px;
+
+      a.light-text:hover {
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: 768px) { 
+  .contact-wrapper { 
+    .description-contact {
+      margin-left: 0;
+      // width: 60%;
+  
+      p {
+        font-size: 11px;
+      }
+    }
+  }
+}
