@@ -1,6 +1,6 @@
 @use './colors';
 
-@import "abstracts/reset";
+@import '~node_modules/tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
