@@ -2,7 +2,7 @@
 const path = require("path");
 
 const nextConfig = {
-  output: "export",
+  // output: "export",
   basePath: "",
   reactStrictMode: true,
   swcMinify: true,
