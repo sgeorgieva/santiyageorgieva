@@ -15,9 +15,11 @@ import RomaProjectLogo from "../../../../public/images/romaproject.webp";
 import GoogleLogo from "../../../../public/images/google.webp";
 import WeatherLogo from "../../../../public/images/weather.webp";
 import ResidentEvilLogo from "../../../../public/images/resident-evil.webp";
+import ResidentEvilCover from "../../../../public/images/movie_poster_2022_softuni_creative_part-2.jpg";
 import BookLogo from "../../../../public/images/above_beyond_title.webp";
 import BookCover from "../../../../public/images/Book_Cover_Mockup.webp";
 import CDCoverTitleLogo from "../../../../public/images/cd-covers-title.webp";
+import CDCover from "../../../../public/images/Book_Cover_Mockup.webp";
 import SecondChanceLogo from "../../../../public/images/second_chance.png";
 import VekoOilLogo from "../../../../public/images/veko-oil-logo.png";
 
@@ -146,7 +148,7 @@ export default function ProjectsComponent() {
             <Row>
               <Col>
                 <Link
-                  href="https://second-chance-book-cover.onrender.com"
+                  href="https://www.figma.com/design/1mJDHpXqQZ439BKd2vOAmh/SoftUni-Exam-Project?node-id=75-191&t=ghROTn7XmOYL1Lkt-1"
                   target="_blank"
                 >
                   <Image priority src={SecondChanceLogo} alt="logo" />
@@ -155,17 +157,14 @@ export default function ProjectsComponent() {
             </Row>
             <Row>
               <Col>
-                <Link
-                  href="https://cd-covers-generator-52d5.onrender.com"
-                  target="_blank"
-                >
+                <Link href={CDCover.src} target="_blank">
                   <Image priority src={CDCoverTitleLogo} alt="logo" />
                 </Link>
               </Col>
             </Row>
             <Row>
               <Col>
-                <Link href="https://resident-evil-book-cover.on">
+                <Link href={ResidentEvilCover.src} target="_blank">
                   <Image priority src={ResidentEvilLogo} alt="logo" />
                 </Link>
               </Col>
@@ -232,25 +231,19 @@ export default function ProjectsComponent() {
                     Design
                   </span>
                   <div className="menu-design" id="menu-design">
-                    <Link
-                      href="https://book-cover-generator-9b5c.onrender.com"
-                      target="_blank"
-                    >
+                    <Link href={BookCover.src} target="_blank">
                       <Image priority src={BookLogo} alt="logo" />
                     </Link>
                     <Link
-                      href="https://second-chance-book-cover.onrender.com"
+                      href="https://www.figma.com/design/1mJDHpXqQZ439BKd2vOAmh/SoftUni-Exam-Project?node-id=75-191&t=ghROTn7XmOYL1Lkt-1"
                       target="_blank"
                     >
                       <Image priority src={SecondChanceLogo} alt="logo" />
                     </Link>
-                    <Link
-                      href="https://cd-covers-generator-52d5.onrender.com"
-                      target="_blank"
-                    >
+                    <Link href={CDCover.src} target="_blank">
                       <Image priority src={CDCoverTitleLogo} alt="logo" />
                     </Link>
-                    <Link href="https://resident-evil-book-cover.on">
+                    <Link href={ResidentEvilCover.src} target="_blank">
                       <Image priority src={ResidentEvilLogo} alt="logo" />
                     </Link>
                   </div>
